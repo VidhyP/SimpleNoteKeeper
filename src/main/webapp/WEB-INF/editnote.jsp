@@ -17,10 +17,10 @@
 
         <form>
             <label>Title: </label>
-            <input type="text" name="title" placeholder="Title">
+            <input type="text" name="title" value="${note.title}">
             <br>
             <label>Contents: </label>
-            <input type="text" name="contents" placeholder="Enter content">
+            <input type="text" name="contents" value="${note.contents}">
             <br>
             <button type="submit">Save</button>
         </form>
