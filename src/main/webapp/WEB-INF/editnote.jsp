@@ -14,13 +14,13 @@
     <body>
         <h1>Simple Note Keeper</h1>
         <h2>Edit Note</h2>
-
-        <form>
+        
+        <form method="POST">
             <label>Title: </label>
             <input type="text" name="title" value="${note.title}">
             <br>
-            <label>Contents: </label>
-            <input type="text" name="contents" value="${note.contents}">
+            <label style="vertical-align:bottom;">Contents: </label>
+            <input type="text" style="height:100px;" name="contents" value="${note.contents}">
             <br>
             <button type="submit">Save</button>
         </form>
